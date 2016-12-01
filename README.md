@@ -28,5 +28,5 @@ Then: `sudo iw dev wlp13s0 scan`
 Then: `echo "options rtl8723be ant_sel=2" | sudo tee /etc/modprobe.d/50-rtl8723be.conf`   
 
 Note: After your OS (Kernel) update, you need to apply these settings again to get strong signal.   
-Noet 2: This is for rtl8723be, replace it in respect to the module you've.   
+Note 2: This is for rtl8723be, replace it in respect to the module you've.   
 I'll update this properly in a while, this is just the initial setup.   
